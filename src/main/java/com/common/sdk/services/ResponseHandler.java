@@ -1,11 +1,16 @@
 package com.common.sdk.services;
 
 import com.common.sdk.models.APIResponse;
+
 import com.common.sdk.models.enums.APIResponseCode;
 import com.common.sdk.models.interfaces.GenericApiResponse;
 import com.common.sdk.models.interfaces.ResponseCode;
 import com.common.sdk.utils.CommonUtils;
+import org.springframework.stereotype.Component;
 
+
+
+@Component
 public class ResponseHandler {
 	
 	public <T> GenericApiResponse<T> ok(T data)

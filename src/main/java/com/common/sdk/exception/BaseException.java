@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 import lombok.Getter;
 
-@Component
 @Getter
 public class BaseException extends RuntimeException {
 
